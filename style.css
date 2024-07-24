@@ -1,0 +1,14 @@
+/* General */
+
+.container-fluid {
+    background-color: beige;
+    height: 100px;
+}
+
+.row {
+    height: 100%;
+}
+
+.col-auto {
+    background-color: aqua;
+}
