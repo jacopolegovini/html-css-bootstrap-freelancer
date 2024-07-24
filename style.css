@@ -12,9 +12,17 @@ header {
     border: 1px dashed red;
 }
 
+li {
+    list-style-type: none;
+}
+
 a {
     text-decoration: none;
     color: black;
+}
+
+footer a {
+    color: white;
 }
 
 button {
