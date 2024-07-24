@@ -1,7 +1,7 @@
 /* General */
 
 header {
-    height: 80px;
+    height: 60px;
 }
 
 .portfolio .col {
@@ -27,4 +27,9 @@ footer a {
 
 button {
     background-color: transparent;
+}
+
+footer a { 
+    width: 30px; 
+    line-height: 30px; 
 }
