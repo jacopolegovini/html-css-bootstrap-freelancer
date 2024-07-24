@@ -12,12 +12,16 @@ header {
     height: ;
 } */
 
-/* .row {
+.container {
     height: 100%;
-} */
+}
 
-.col-auto, .col {
-    background-color: aqua;
+.row {
+    height: 100%;
+}
+
+.portfolio .col {
+    height: 100px;
 }
 
 .row * {
