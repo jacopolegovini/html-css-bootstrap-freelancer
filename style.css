@@ -4,26 +4,19 @@ header {
     height: 80px;
 }
 
-/* .box {
-    border: 1px dashed red;
-} */
-
-/* main {
-    height: ;
-} */
-
-.container {
-    height: 100%;
-}
-
-.row {
-    height: 100%;
-}
-
 .portfolio .col {
     height: 100px;
 }
 
 .row * {
     border: 1px dashed red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background-color: transparent;
 }
