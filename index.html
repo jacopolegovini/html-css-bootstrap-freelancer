@@ -13,13 +13,18 @@
 </head>
 <body>
     <header class="bg-warning">
-        <div class="container-fluid h-100">
+        <div class="container h-100">
             <div class="row h-100 justify-content-between align-items-center">
                 <div class="col-auto d-flex align-items-">
                     <a href="#">link</a>
                 </div>
-                <div class="col-auto">
+                <div class="col-auto d-sm-none">
                     menu
+                </div>
+                <div class="col-auto d-none d-sm-flex gap-2">
+                    <div class="portfolio box">lorem</div>
+                    <div class="about box">lorem</div>
+                    <div class="contact box">lorem</div>
                 </div>
             </div>
         </div>
@@ -43,10 +48,10 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio container">
+        <div class="portfolio container text-center px-4">
             <h2>Portfolio</h2>
             <section>Icon</section>
-            <div class="row h-100 row-cols-1">
+            <div class="row row-cols-1 text-center gy-2">
                 <div class="col bg-primary">
                     img
                 </div>
@@ -64,6 +69,16 @@
                 </div>
                 <div class="col bg-dark text-white">
                     img
+                </div>
+            </div>
+        </div>
+        <div class="about bg-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col">About</div>
+                    <div class="col">Icon</div>
+                    <div class="col">paragraph</div>
+                    <div class="col">button</div>
                 </div>
             </div>
         </div>

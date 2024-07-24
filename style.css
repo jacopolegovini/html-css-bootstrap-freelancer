@@ -4,6 +4,10 @@ header {
     height: 80px;
 }
 
+/* .box {
+    border: 1px dashed red;
+} */
+
 /* main {
     height: ;
 } */
@@ -14,4 +18,8 @@ header {
 
 .col-auto, .col {
     background-color: aqua;
+}
+
+.row * {
+    border: 1px dashed red;
 }
