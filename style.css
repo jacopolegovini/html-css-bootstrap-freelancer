@@ -1,14 +1,17 @@
 /* General */
 
-.container-fluid {
-    background-color: beige;
-    height: 100px;
+header {
+    height: 80px;
 }
+
+/* main {
+    height: ;
+} */
 
 .row {
     height: 100%;
 }
 
-.col-auto {
+.col-auto, .col {
     background-color: aqua;
 }
