@@ -4,6 +4,19 @@ h2 {
     text-transform: uppercase;
 }
 
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background-color: transparent;
+}
+
 /* Header */
 
 .bg-body-header-blue {
@@ -22,33 +35,28 @@ h2 {
 
 /* Portfolio */
 
-/* .portfolio .col {
-    height: 100px;
-} */
-
 .portfolio img {
     width: 100%;
 }
 
+/* About */
 
-
-
-li {
-    list-style-type: none;
+.about-bg-color {
+    background-color: #1abc9c;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+.about * {
+    color: white;
 }
+
+
+
 
 footer a {
     color: white;
 }
 
-button {
-    background-color: transparent;
-}
+
 
 footer a { 
     width: 30px; 
