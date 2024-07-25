@@ -17,6 +17,26 @@ button {
     background-color: transparent;
 }
 
+/* Icon line */
+
+.line {
+    width: 80px;
+    display: inline-block;
+    border-top: 2px solid white;
+}
+
+.line-dx {
+    position: relative;
+    top: -4px;
+    left: 10px;
+}
+
+.line-sx {
+    position: relative;
+    top: -4px;
+    left: -10px;
+}
+
 /* Header */
 
 .bg-body-header-blue {
@@ -61,6 +81,14 @@ button {
 
 /* Footer */
 
+.footer-bottom {
+    background-color: #2C3E50;
+}
+
+.footer-bottom p {
+    font-size: 0.8rem;
+}
+
 footer a {
     border: 1px solid white;
     color: white;
@@ -75,3 +103,8 @@ footer span {
 footer div {
     width: auto;
 }
+
+.footer-top {
+    background-color: #3A546D;
+}
+
