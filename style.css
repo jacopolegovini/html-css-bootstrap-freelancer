@@ -4,8 +4,9 @@ h2 {
     text-transform: uppercase;
 }
 
-li {
+ul {
     list-style-type: none;
+    padding: 0;
 }
 
 a {
@@ -104,11 +105,15 @@ button {
     font-size: 0.8rem;
 }
 
+.fa-brands {
+    font-size: 0.8rem;
+}
+
 footer a {
     border: 1px solid white;
     color: white;
-    width: 40px; 
-    line-height: 40px; 
+    width: 30px; 
+    line-height: 30px; 
 }
 
 footer span {
