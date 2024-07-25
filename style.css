@@ -50,6 +50,14 @@ button {
     background-color: #2c3e50;
 }
 
+.icon-color {
+    filter: invert(100%);
+}
+
+.border-menu-color {
+    border-color: #B1B3B4;
+}
+
 /* Presentation */
 
 .bg-color-presentation {
