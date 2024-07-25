@@ -1,5 +1,8 @@
 /* General */
 
+h2 {
+    text-transform: uppercase;
+}
 
 /* Header */
 
@@ -19,9 +22,15 @@
 
 /* Portfolio */
 
-.portfolio .col {
+/* .portfolio .col {
     height: 100px;
+} */
+
+.portfolio img {
+    width: 100%;
 }
+
+
 
 
 li {
