@@ -49,8 +49,15 @@ button {
     color: white;
 }
 
+/* Contacts */
 
+#contacts ::placeholder {
+    color: black;
+}
 
+.btn-color {
+    background-color: #1abc9c;
+}
 
 footer a {
     color: white;
