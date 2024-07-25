@@ -22,7 +22,14 @@ button {
 .line {
     width: 80px;
     display: inline-block;
+}
+
+.line-white {
     border-top: 2px solid white;
+}
+
+.line-blue {
+    border-top: 2px solid #2C3E50;
 }
 
 .line-dx {
